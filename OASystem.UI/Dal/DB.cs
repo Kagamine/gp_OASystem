@@ -7,7 +7,7 @@ using OASystem.Entity;
 
 namespace OASystem.UI.Dal
 {
-    public class DB:DbContext
+    public class DB: DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Department> Departments { get; set; }
@@ -15,6 +15,9 @@ namespace OASystem.UI.Dal
         public DbSet<Message> Messages { get; set; }
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<UserLog> UserLogs { get; set; }
+        public DbSet<SignLog> SignLogs { get; set; }
+        public DbSet<Event> Events { get; set; }
+
         public DB()
             : base("mysqldb")
         { 
@@ -24,8 +27,12 @@ namespace OASystem.UI.Dal
         {
             //构建Department实体一对多关系
             modelBuilder.Entity<Department>()
-                .HasMany(d => d.User)
+                .HasMany(d => d.Users)
                 .WithRequired(u => u.Department);
+
+            modelBuilder.Entity<Department>()
+                .HasMany(d => d.Events)
+                .WithRequired(e => e.Department);
 
             //构建User实体一对多关系
             modelBuilder.Entity<User>()
