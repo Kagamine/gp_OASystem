@@ -1,4 +1,13 @@
-﻿CREATE TABLE `departments` (
+﻿drop table if exists `departments`;
+drop table if exists `users`;
+drop table if exists `user_logs`;
+drop table if exists `sign_logs`;
+drop table if exists `events`;
+drop table if exists `messages`;
+drop table if exists `uploads`;
+drop table if exists `schedules`;
+
+CREATE TABLE `departments` (
     id int not null auto_increment,
     `title` varchar(80) not null,
 	`description` mediumtext default null,
