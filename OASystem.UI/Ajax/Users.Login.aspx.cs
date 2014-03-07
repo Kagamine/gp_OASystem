@@ -24,7 +24,7 @@ namespace OASystem.UI.Ajax
                 var bytespwd = SHA1.Create().ComputeHash(Encoding.UTF8.GetBytes(password));
                 Entity.User user = (from u in db.Users
                                     where u.Username == username
-                                    //&& u.Password == bytespwd
+                                    && u.Password == bytespwd
                                     select u).SingleOrDefault();
                 if (user == null) return;
                 Session["User"] = user;

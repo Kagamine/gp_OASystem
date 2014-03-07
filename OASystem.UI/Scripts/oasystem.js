@@ -5,7 +5,7 @@
             Password: $("#txtPassword").val()
         }, function (data) {
             if (data == "OK") {
-                location.href = "Default.aspx";
+                self.location = "Default.aspx";
             }
             else {
                 $("#DialogTitle").html("登录失败");
