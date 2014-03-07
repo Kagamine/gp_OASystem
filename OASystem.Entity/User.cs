@@ -45,6 +45,18 @@ namespace OASystem.Entity
         public virtual Department Department { get; set; }
 
         public virtual ICollection<UserLog> UserLog { get; set; }
+
+        public override int GetHashCode()
+        {
+            return this.ID;
+        }
+
+        public override bool Equals(object obj)
+        {
+            var user = obj as User;
+            if (user.ID == this.ID) return true;
+            else return false;
+        }
     }
     public enum UserRole { Worker, Manager, Root };
 }

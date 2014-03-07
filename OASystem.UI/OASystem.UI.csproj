@@ -61,6 +61,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ajax\Users.Login.aspx" />
+    <Content Include="debug.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery.js" />
@@ -89,6 +91,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajax\Users.Login.aspx.cs">
+      <DependentUpon>Users.Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Users.Login.aspx.designer.cs">
+      <DependentUpon>Users.Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Bll\UserLogManager.cs" />
     <Compile Include="Bll\UserManager.cs" />
     <Compile Include="Dal\DB.cs" />
@@ -151,7 +160,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ajax\" />
     <Folder Include="Helpers\" />
     <Folder Include="Images\" />
     <Folder Include="WebSocket\" />
