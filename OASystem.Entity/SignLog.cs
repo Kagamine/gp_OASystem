@@ -28,6 +28,9 @@ namespace OASystem.Entity
             get { return (SignType)TypeAsInt; }
             set { TypeAsInt = (int)value; }
         }
+
+        [Column("time")]
+        public DateTime Time { get; set; }
     }
     public enum SignType { Login,Logout };
 }

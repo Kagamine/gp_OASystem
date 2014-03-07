@@ -26,16 +26,19 @@ namespace OASystem.Entity
 
         public virtual Department Department { get; set; }
 
-        [Column("user_id")]
-        [ForeignKey("User")]
-        public int? UserID { get; set; }
+        [Column("to_user_id")]
+        [ForeignKey("ToUser")]
+        public int? ToUserID { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual User ToUser { get; set; }
 
         [Column("submittion_user_id")]
         [ForeignKey("SubmittionUser")]
         public int SubmittionUserID { get; set; }
 
         public virtual User SubmittionUser { get; set; }
+
+        [Column("time")]
+        public DateTime Time { get; set; }
     }
 }

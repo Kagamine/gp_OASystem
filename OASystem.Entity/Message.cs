@@ -31,5 +31,8 @@ namespace OASystem.Entity
 
         [Column("content")]
         public string Content { get; set; }
+
+        [Column("time")]
+        public DateTime Time { get; set; }
     }
 }
