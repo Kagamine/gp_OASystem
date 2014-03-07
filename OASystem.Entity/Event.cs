@@ -15,7 +15,7 @@ namespace OASystem.Entity
         public int ID { get; set; }
 
         [Column("user_id")]
-        [ForeignKey("UserID")]
+        [ForeignKey("User")]
         public int UserID { get; set; }
 
         public virtual User User { get; set; }

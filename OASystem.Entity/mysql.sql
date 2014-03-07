@@ -21,8 +21,7 @@ CREATE TABLE `users` (
     `password` binary(80) not null,
     name varchar(50) not null,
 	phone_number varchar(50) default null,
-	identification_number varchar(50) default null,
-	avatar mediumtext not null,
+	avatar mediumtext default null,
 	department_id int default null,
     `role` tinyint not null,
     primary key (id),
@@ -56,7 +55,7 @@ CREATE TABLE `sign_logs`(
 
 CREATE TABLE `events`(
     id int not null auto_increment,
-	user_id int not null,
+	`user_id` int not null,
 	manager_id int not null,
 	root_id int not null,
 	`time` datetime not null,
@@ -123,3 +122,5 @@ CREATE TABLE `schedules`(
 		on delete cascade,
     primary key (id)
 )  default charset=utf8;
+
+INSERT INTO users (`username`,`name`,`password`,role) values ('admin','admin',unhex(sha1('admin')),2);

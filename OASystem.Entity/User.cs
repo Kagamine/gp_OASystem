@@ -18,7 +18,7 @@ namespace OASystem.Entity
         public string Username { get; set; }
 
         [Column("password")]
-        public string Password { get; set; }
+        public byte[] Password { get; set; }
 
         [Column("name")]
         public string Name { get; set; }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -17,9 +18,12 @@ namespace OASystem.UI.Ajax
             }
             using (Dal.DB db = new Dal.DB())
             {
+                var username = Request.Form["Username"].ToString();
+                var password = Request.Form["Password"].ToString();
+                var bytespwd = Encoding.UTF8.GetBytes(password);
                 Entity.User user = (from u in db.Users
-                            where u.Username == Request.Form["Username"].ToString()
-                            && u.Password == Request.Form["Password"]
+                            where u.Username == username
+                            && u.Password == bytespwd
                             select u).FirstOrDefault();
                 if (user == null) return;
                 else Session["User"] = user;

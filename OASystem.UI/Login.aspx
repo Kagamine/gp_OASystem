@@ -3,6 +3,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="bs-header" id="content">
+        <div class="container">
+            <h1>登录</h1>
+            <p>请输入您的用户名密码以进入本系统</p>
+        </div>
+    </div>
     <div class="container">
         <div role="form">
             <h2>登录</h2>
