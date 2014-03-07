@@ -14,7 +14,7 @@ CREATE TABLE `users` (
 	phone_number varchar(50) default null,
 	identification_number varchar(50) default null,
 	avatar mediumtext not null,
-	department_id default null,
+	department_id int default null,
     `role` tinyint not null,
     primary key (id),
 	foreign key (department_id)
@@ -98,7 +98,7 @@ CREATE TABLE `uploads`(
 CREATE TABLE `schedules`(
     id int not null auto_increment,
 	submittion_user_id int not null,
-	to_user_id default null,
+	to_user_id int default null,
 	`time` datetime not null,
 	`title` varchar(120) not null,
 	`content` mediumtext default null,
