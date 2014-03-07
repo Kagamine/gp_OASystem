@@ -1,0 +1,226 @@
+ÿ%                                                                                                                                                                                   test                                                                                                                                                                                                                                            ÿ%                                                                                                                                                                                   test\_%                                                                                                                                                                                                                                         2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2014-02-15 17:38:08 5144 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2014-02-15 17:38:08 5144 [Note] Event Scheduler: Loaded 0 events
+2014-02-15 17:38:08 5144 [Note] C:\Users\Gasai Yuno\Documents\GitHub\CenaPlus\CenaPlus.Server\bin\Debug\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.6.15'  socket: ''  port: 3311  MySQL Community Server (GPL)
+2014-02-15 17:38:37 212c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-15 17:38:37 212c InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."contests" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-15 17:38:37 212c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-15 17:38:37 212c InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."records" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-15 17:38:43 212c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-15 17:38:43 212c InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-15 17:39:02 212c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-15 17:39:02 212c InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."configs" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-15 17:40:15 212c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-15 17:40:15 212c InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."problems" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-15 17:40:16 212c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-15 17:40:16 212c InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."test_cases" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-15 17:40:20 212c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-15 17:40:20 212c InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."print_requests" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-15 18:14:52 5144 [Note] C:\Users\Gasai Yuno\Documents\GitHub\CenaPlus\CenaPlus.Server\bin\Debug\mysql\bin\mysqld.exe: Normal shutdown
+
+2014-02-15 18:14:52 5144 [Note] Giving 0 client threads a chance to die gracefully
+2014-02-15 18:14:52 5144 [Note] Event Scheduler: Purging the queue. 0 events
+2014-02-15 18:14:52 5144 [Note] Shutting down slave threads
+2014-02-15 18:14:52 5144 [Note] Forcefully disconnecting 0 remaining clients
+2014-02-15 18:14:52 5144 [Note] Binlog end
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2014-02-22 08:48:31 8672 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2014-02-22 08:48:31 8672 [Note] Event Scheduler: Loaded 0 events
+2014-02-22 08:48:31 8672 [Note] C:\Users\Gasai Yuno\Documents\GitHub\CenaPlus\CenaPlus.Server\bin\Debug\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.6.15'  socket: ''  port: 3311  MySQL Community Server (GPL)
+2014-02-22 08:48:37 2378 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:48:37 2378 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."contests" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:48:39 da4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:48:39 da4 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."records" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:50:16 2378 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:50:16 2378 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:50:16 2378 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:50:16 2378 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."configs" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:50:20 2378 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:50:20 2378 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."problems" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:50:20 2378 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:50:20 2378 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."problem_locks" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:50:20 da4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:50:20 da4 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."hacks" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:51:00 2378 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:51:00 2378 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."test_cases" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-02-22 08:58:43 2050 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-02-22 08:58:43 2050 InnoDB: Recalculation of persistent statistics requested for table "cenaplus"."records" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2014-02-22 09:03:26 8672 [Note] C:\Users\Gasai Yuno\Documents\GitHub\CenaPlus\CenaPlus.Server\bin\Debug\mysql\bin\mysqld.exe: Normal shutdown
+
+2014-02-22 09:03:26 8672 [Note] Giving 0 client threads a chance to die gracefully
+2014-02-22 09:03:26 8672 [Note] Event Scheduler: Purging the queue. 0 events
+2014-02-22 09:03:26 8672 [Note] Shutting down slave threads
+2014-02-22 09:03:26 8672 [Note] Forcefully disconnecting 0 remaining clients
+2014-02-22 09:03:26 8672 [Note] Binlog end
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2014-03-02 11:03:53 8436 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2014-03-02 11:03:54 8436 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2014-03-02 11:03:54 8436 [Note] Event Scheduler: Loaded 0 events
+2014-03-02 11:03:54 8436 [Note] C:\Users\Yuno\Documents\GitHub\CenaPlus\CenaPlus.Server\bin\Debug\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.6.15'  socket: ''  port: 3311  MySQL Community Server (GPL)
+2014-03-02 11:03:57 3638 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-02 11:03:57 3638 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."contests" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-02 11:03:57 3638 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-02 11:03:57 3638 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."records" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-02 11:03:59 3638 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-02 11:03:59 3638 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."configs" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-02 11:04:18 3638 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-02 11:04:18 3638 InnoDB: Error: Fetch of persistent statistics requested for table "cenaplus"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-02 11:04:38 8436 [Note] C:\Users\Yuno\Documents\GitHub\CenaPlus\CenaPlus.Server\bin\Debug\mysql\bin\mysqld.exe: Normal shutdown
+
+2014-03-02 11:04:38 8436 [Note] Giving 0 client threads a chance to die gracefully
+2014-03-02 11:04:38 8436 [Note] Event Scheduler: Purging the queue. 0 events
+2014-03-02 11:04:38 8436 [Note] Shutting down slave threads
+2014-03-02 11:04:38 8436 [Note] Forcefully disconnecting 0 remaining clients
+2014-03-02 11:04:38 8436 [Note] Binlog end
