@@ -347,3 +347,53 @@ Version: '5.6.15'  socket: ''  port: 3311  MySQL Community Server (GPL)
 2014-03-08 00:37:11 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
 2014-03-08 00:37:13 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
 2014-03-08 00:37:16 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:12 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:12 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:12 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:13 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:13 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:13 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:14 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:14 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:14 32c8 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:38:14 32c8 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 00:48:28 33e0 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:48:28 33e0 InnoDB: Recalculation of persistent statistics requested for table "oasystem"."users" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2014-03-08 00:49:19 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:49:19 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:49:19 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:49:19 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:49:19 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:49:19 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:49:22 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:49:25 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:30 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:30 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:30 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:31 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:31 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:31 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:31 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:31 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:32 2860 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:50:32 2860 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 00:52:10 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:10 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:10 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:10 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:10 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:10 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:12 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:14 2a88 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:29 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:29 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:29 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:29 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:30 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:30 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:30 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:30 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:31 328c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:52:31 328c InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 00:54:17 4f0 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 00:54:17 4f0 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."user_logs" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.

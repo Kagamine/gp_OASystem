@@ -1,8 +1,8 @@
 ﻿$(document).ready(function () {
     $("#btnLogin").unbind().click(function () {
         $.post("Ajax/Users.Login.aspx", {
-            Username: $("txtUsername").val(),
-            Password: $("txtPassword").val()
+            Username: $("#txtUsername").val(),
+            Password: $("#txtPassword").val()
         }, function (data) {
             if (data == "OK") {
                 location.href = "Default.aspx";

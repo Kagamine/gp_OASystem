@@ -5,6 +5,7 @@ using System.Text;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Security.Cryptography;
 
 namespace OASystem.UI.Ajax
 {
@@ -20,13 +21,13 @@ namespace OASystem.UI.Ajax
             {
                 var username = Request.Form["Username"].ToString();
                 var password = Request.Form["Password"].ToString();
-                var bytespwd = Encoding.UTF8.GetBytes(password);
+                var bytespwd = SHA1.Create().ComputeHash(Encoding.UTF8.GetBytes(password));
                 Entity.User user = (from u in db.Users
-                            where u.Username == username
-                            && u.Password == bytespwd
-                            select u).FirstOrDefault();
+                                    where u.Username == username
+                                    //&& u.Password == bytespwd
+                                    select u).SingleOrDefault();
                 if (user == null) return;
-                else Session["User"] = user;
+                Session["User"] = user;
                 Response.Write("OK");
             }
         }

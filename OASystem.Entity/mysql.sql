@@ -18,7 +18,7 @@ CREATE TABLE `departments` (
 CREATE TABLE `users` (
     id int not null auto_increment,
     `username` varchar(80) not null,
-    `password` binary(80) not null,
+    `password` binary(20) not null,
     name varchar(50) not null,
 	phone_number varchar(50) default null,
 	avatar mediumtext default null,
