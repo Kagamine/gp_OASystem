@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Web.Script.Serialization;
 
 namespace OASystem.Entity
 {
@@ -18,6 +19,7 @@ namespace OASystem.Entity
         public string Username { get; set; }
 
         [Column("password")]
+        [ScriptIgnore]
         public byte[] Password { get; set; }
 
         [Column("name")]
@@ -30,6 +32,7 @@ namespace OASystem.Entity
         public byte[] Avatar { get; set; }
 
         [Column("role")]
+        [ScriptIgnore]
         public int RoleAsInt { get; set; }
 
         [NotMapped]
@@ -42,8 +45,10 @@ namespace OASystem.Entity
         [Column("department_id")]
         public int? DepartmentID { get; set; }
 
+        [ScriptIgnore]
         public virtual Department Department { get; set; }
 
+        [ScriptIgnore]
         public virtual ICollection<UserLog> UserLog { get; set; }
 
         public override int GetHashCode()
