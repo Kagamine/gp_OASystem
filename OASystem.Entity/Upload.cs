@@ -35,6 +35,12 @@ namespace OASystem.Entity
 
         [Column("file")]
         public byte[] File { get; set; }
+
+        [Column("time")]
+        public DateTime Time { get; set; }
+
+        [Column("size")]
+        public int Size { get; set; }
     }
     public enum UploadType { Private, Public };
 }

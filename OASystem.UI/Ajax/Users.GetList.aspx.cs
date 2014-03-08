@@ -30,7 +30,7 @@ namespace OASystem.UI.Ajax
                 }
                 if (DepartmentID != 0)
                 {
-                    users.Where(x=>x.DepartmentID == DepartmentID);
+                    users = users.Where(x => x.DepartmentID == DepartmentID).ToList();
                 }
                 JavaScriptSerializer jss = new JavaScriptSerializer();
                 Response.Write(jss.Serialize(users));

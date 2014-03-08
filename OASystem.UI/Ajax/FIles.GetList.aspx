@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FIles.GetList.aspx.cs" Inherits="OASystem.UI.Ajax.FIles_GetList" %>

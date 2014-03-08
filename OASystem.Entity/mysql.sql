@@ -97,6 +97,8 @@ CREATE TABLE `uploads`(
 	`type` tinyint not null,
 	`filename` varchar(120) not null,
 	`file` longblob default null,
+	`size` int not null,
+	`time` datetime not null,
 	foreign key (user_id)
 		references users (id)
 		on delete cascade,
