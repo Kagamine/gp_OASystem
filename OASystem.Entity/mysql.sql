@@ -21,7 +21,7 @@ CREATE TABLE `users` (
     `password` binary(20) not null,
     name varchar(50) not null,
 	phone_number varchar(50) default null,
-	avatar mediumtext default null,
+	avatar mediumblob default null,
 	department_id int default null,
     `role` tinyint not null,
     primary key (id),
@@ -96,7 +96,7 @@ CREATE TABLE `uploads`(
 	`time` datetime not null,
 	`type` tinyint not null,
 	`filename` varchar(120) not null,
-	`file` mediumtext default null,
+	`file` longblob default null,
 	foreign key (user_id)
 		references users (id)
 		on delete cascade,

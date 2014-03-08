@@ -69,6 +69,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin_Users.aspx" />
+    <Content Include="Admin_User_Edit.aspx" />
+    <Content Include="Ajax\Users.GetList.aspx" />
     <Content Include="Ajax\Users.Login.aspx" />
     <Content Include="debug.html" />
     <Content Include="Scripts\bootstrap.js" />
@@ -101,6 +104,27 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_Users.aspx.cs">
+      <DependentUpon>Admin_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Users.aspx.designer.cs">
+      <DependentUpon>Admin_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_User_Edit.aspx.cs">
+      <DependentUpon>Admin_User_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_User_Edit.aspx.designer.cs">
+      <DependentUpon>Admin_User_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Users.GetList.aspx.cs">
+      <DependentUpon>Users.GetList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Users.GetList.aspx.designer.cs">
+      <DependentUpon>Users.GetList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ajax\Users.Login.aspx.cs">
       <DependentUpon>Users.Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,6 +156,7 @@
     <Compile Include="FileUpload.aspx.designer.cs">
       <DependentUpon>FileUpload.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\PagerHelper.cs" />
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -170,7 +195,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helpers\" />
     <Folder Include="Images\" />
     <Folder Include="WebSocket\" />
   </ItemGroup>

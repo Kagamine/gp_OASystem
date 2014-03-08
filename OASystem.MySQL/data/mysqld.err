@@ -460,3 +460,123 @@ Version: '5.6.15'  socket: ''  port: 3311  MySQL Community Server (GPL)
 2014-03-08 00:58:36 8924 [Note] Shutting down plugin 'binlog'
 2014-03-08 00:58:36 8924 [Note] bin\mysqld.exe: Shutdown complete
 
+2014-03-08 10:46:17 2552 [Note] Plugin 'FEDERATED' is disabled.
+2014-03-08 10:46:17 2552 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-03-08 10:46:17 2552 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-03-08 10:46:17 2552 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-03-08 10:46:17 2552 [Note] InnoDB: Not using CPU crc32 instructions
+2014-03-08 10:46:17 2552 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-03-08 10:46:17 2552 [Note] InnoDB: Completed initialization of buffer pool
+2014-03-08 10:46:17 2552 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-03-08 10:46:17 2552 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-03-08 10:46:17 2552 [Note] InnoDB: Waiting for purge to start
+2014-03-08 10:46:17 2552 [Note] InnoDB: 5.6.15 started; log sequence number 1921767
+2014-03-08 10:46:17 2552 [Note] Server hostname (bind-address): 'localhost'; port: 3311
+2014-03-08 10:46:17 2552 [Note]   - 'localhost' resolves to '::1';
+2014-03-08 10:46:17 2552 [Note]   - 'localhost' resolves to '127.0.0.1';
+2014-03-08 10:46:17 2552 [Note] Server socket created on IP: '127.0.0.1'.
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'cond_instances' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_current' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_history' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_history_long' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_host_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_instance' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_thread_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_user_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_summary_by_account_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_waits_summary_global_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'file_instances' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'file_summary_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'file_summary_by_instance' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'host_cache' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'mutex_instances' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'objects_summary_global_by_type' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'performance_timers' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'rwlock_instances' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'setup_actors' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'setup_consumers' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'setup_instruments' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'setup_objects' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'setup_timers' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_index_usage' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'table_io_waits_summary_by_table' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'table_lock_waits_summary_by_table' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'threads' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_current' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_history' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_history_long' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_thread_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_account_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_user_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_summary_by_host_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_stages_summary_global_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_current' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_history' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_history_long' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_thread_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_account_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_user_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_host_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_summary_global_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'events_statements_summary_by_digest' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'users' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'accounts' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'hosts' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'socket_instances' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'socket_summary_by_instance' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'socket_summary_by_event_name' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'session_connect_attrs' has the wrong structure
+2014-03-08 10:46:17 2552 [ERROR] Native table 'performance_schema'.'session_account_connect_attrs' has the wrong structure
+2014-03-08 10:46:17 2552 [Note] Event Scheduler: Loaded 0 events
+2014-03-08 10:46:17 2552 [Note] bin\mysqld.exe: ready for connections.
+Version: '5.6.15'  socket: ''  port: 3311  MySQL Community Server (GPL)
+2014-03-08 10:47:37 ddc InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 10:47:37 ddc InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 12:20:13 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 12:20:13 2444 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."user_logs" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 12:48:15 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 12:48:15 2444 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."departments" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."#sql-9f8_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:22:22 1324 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."#sql-9f8_9" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:23:44 1324 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 18:24:04 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:04 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:05 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:05 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:05 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:05 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:05 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:05 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:08 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:09 1324 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:22 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:22 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:22 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:22 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:22 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:23 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:23 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:23 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:23 22ac InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:23 22ac InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 18:24:53 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:53 2444 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."departments" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2014-03-08 18:24:53 2444 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2014-03-08 18:24:53 2444 InnoDB: Error: Fetch of persistent statistics requested for table "oasystem"."user_logs" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.

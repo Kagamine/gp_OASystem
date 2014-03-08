@@ -43,6 +43,7 @@ namespace OASystem.Entity
         }
 
         [Column("department_id")]
+        [ScriptIgnore]
         public int? DepartmentID { get; set; }
 
         [ScriptIgnore]
@@ -50,6 +51,9 @@ namespace OASystem.Entity
 
         [ScriptIgnore]
         public virtual ICollection<UserLog> UserLog { get; set; }
+
+        [NotMapped]
+        public string DepartmentTitle { get; set; }
 
         public override int GetHashCode()
         {
