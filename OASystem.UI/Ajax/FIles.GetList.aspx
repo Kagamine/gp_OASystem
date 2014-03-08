@@ -1,1 +1,1 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FIles.GetList.aspx.cs" Inherits="OASystem.UI.Ajax.FIles_GetList" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Files.GetList.aspx.cs" Inherits="OASystem.UI.Ajax.Files_GetList" %>

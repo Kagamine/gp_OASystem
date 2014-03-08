@@ -71,7 +71,7 @@
   <ItemGroup>
     <Content Include="Admin_Users.aspx" />
     <Content Include="Admin_User_Edit.aspx" />
-    <Content Include="Ajax\FIles.GetList.aspx" />
+    <Content Include="Ajax\Files.GetList.aspx" />
     <Content Include="Ajax\Users.GetList.aspx" />
     <Content Include="Ajax\Users.Login.aspx" />
     <Content Include="debug.html" />
@@ -119,12 +119,12 @@
     <Compile Include="Admin_User_Edit.aspx.designer.cs">
       <DependentUpon>Admin_User_Edit.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Ajax\FIles.GetList.aspx.cs">
-      <DependentUpon>FIles.GetList.aspx</DependentUpon>
+    <Compile Include="Ajax\Files.GetList.aspx.cs">
+      <DependentUpon>Files.GetList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Ajax\FIles.GetList.aspx.designer.cs">
-      <DependentUpon>FIles.GetList.aspx</DependentUpon>
+    <Compile Include="Ajax\Files.GetList.aspx.designer.cs">
+      <DependentUpon>Files.GetList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ajax\Users.GetList.aspx.cs">
       <DependentUpon>Users.GetList.aspx</DependentUpon>

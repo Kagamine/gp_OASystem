@@ -8,7 +8,7 @@ using System.Web.Script.Serialization;
 
 namespace OASystem.UI.Ajax
 {
-    public partial class FIles_GetList : System.Web.UI.Page
+    public partial class Files_GetList : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -10,6 +10,6 @@
 namespace OASystem.UI.Ajax {
     
     
-    public partial class FIles_GetList {
+    public partial class Files_GetList {
     }
 }
