@@ -29,5 +29,13 @@ namespace OASystem.UI.Bll
                 }
             }
         }
+
+        public static int Count()
+        {
+            using (Dal.DB db = new Dal.DB())
+            {
+                return db.Users.Count();
+            }
+        }
     }
 }
