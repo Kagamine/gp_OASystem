@@ -17,6 +17,7 @@ namespace OASystem.UI.Ajax
             var DepartmentID = Convert.ToInt32(Request.QueryString["DepartmentID"]);
             using (Dal.DB db = new Dal.DB())
             {
+                db.Configuration.ProxyCreationEnabled = false;
                 var users = (from u in db.Users
                              where u.Name.Contains(Name)
                              orderby u.ID ascending
@@ -33,6 +34,7 @@ namespace OASystem.UI.Ajax
                     users = users.Where(x => x.DepartmentID == DepartmentID).ToList();
                 }
                 JavaScriptSerializer jss = new JavaScriptSerializer();
+                jss.MaxJsonLength = 102400000;
                 Response.Write(jss.Serialize(users));
             }
         }

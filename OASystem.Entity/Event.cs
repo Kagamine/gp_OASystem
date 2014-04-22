@@ -14,23 +14,14 @@ namespace OASystem.Entity
         [Column("id")]
         public int ID { get; set; }
 
-        [Column("user_id")]
-        [ForeignKey("User")]
-        public int UserID { get; set; }
-
-        public virtual User User { get; set; }
-
-        [Column("manager_id")]
-        [ForeignKey("Manager")]
-        public int ManagerID { get; set; }
-
-        public virtual User Manager { get; set; }
 
         [Column("root_id")]
         [ForeignKey("Root")]
         public int RootID { get; set; }
-
         public virtual User Root { get; set; }
+
+        [Column("time")]
+        public DateTime Time { set; get; }
 
         [Column("title")]
         public string Title { get; set; }
@@ -51,11 +42,7 @@ namespace OASystem.Entity
         [Column("feedback")]
         public string FeedBack { get; set; }
 
-        [Column("department_id")]
-        [ForeignKey("Department")]
-        public int DepartmentID { get; set; }
-
-        public virtual Department Department { get; set; }
+        public enum EventStatus { Pending, ManagerDisposing, RootDisposing, Done };
     }
-    public enum EventStatus { Pending, ManagerDisposing,RootDisposing, Done };
+   
 }

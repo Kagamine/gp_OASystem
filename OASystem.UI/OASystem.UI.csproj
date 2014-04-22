@@ -43,6 +43,7 @@
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="MySql.Data">
       <HintPath>..\packages\MySql.Data.6.6.5\lib\net40\MySql.Data.dll</HintPath>
     </Reference>
@@ -69,9 +70,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin_Departments.aspx" />
+    <Content Include="Admin_Department_Edit.aspx" />
+    <Content Include="Admin_Events.aspx" />
+    <Content Include="Admin_Files.aspx" />
+    <Content Include="Admin_Schedules.aspx" />
+    <Content Include="Admin_Schedule_Edit.aspx" />
+    <Content Include="Admin_SignIn.aspx" />
     <Content Include="Admin_Users.aspx" />
     <Content Include="Admin_User_Edit.aspx" />
+    <Content Include="Ajax\Department.Operate.aspx" />
+    <Content Include="Ajax\Events.Operate.aspx" />
     <Content Include="Ajax\Files.GetList.aspx" />
+    <Content Include="Ajax\Schedules.Operate.aspx" />
+    <Content Include="Ajax\Signs.Operate.aspx" />
     <Content Include="Ajax\Users.GetList.aspx" />
     <Content Include="Ajax\Users.Login.aspx" />
     <Content Include="debug.html" />
@@ -80,6 +92,7 @@
     <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\oasystem.js" />
     <Content Include="Site.Master" />
+    <Fakes Include="Fakes\EntityFramework.fakes" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -93,7 +106,6 @@
     <Content Include="FileUpload.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
-    <Content Include="Schedules.aspx" />
     <Content Include="Styles\bootstrap-theme.css" />
     <Content Include="Styles\bootstrap-theme.min.css" />
     <Content Include="Styles\bootstrap.css" />
@@ -105,6 +117,55 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_Departments.aspx.cs">
+      <DependentUpon>Admin_Departments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Departments.aspx.designer.cs">
+      <DependentUpon>Admin_Departments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Department_Edit.aspx.cs">
+      <DependentUpon>Admin_Department_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Department_Edit.aspx.designer.cs">
+      <DependentUpon>Admin_Department_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Events.aspx.cs">
+      <DependentUpon>Admin_Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Events.aspx.designer.cs">
+      <DependentUpon>Admin_Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Files.aspx.cs">
+      <DependentUpon>Admin_Files.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Files.aspx.designer.cs">
+      <DependentUpon>Admin_Files.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Schedules.aspx.cs">
+      <DependentUpon>Admin_Schedules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Schedules.aspx.designer.cs">
+      <DependentUpon>Admin_Schedules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Schedule_Edit.aspx.cs">
+      <DependentUpon>Admin_Schedule_Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Schedule_Edit.aspx.designer.cs">
+      <DependentUpon>Admin_Schedule_Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_SignIn.aspx.cs">
+      <DependentUpon>Admin_SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_SignIn.aspx.designer.cs">
+      <DependentUpon>Admin_SignIn.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin_Users.aspx.cs">
       <DependentUpon>Admin_Users.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -119,12 +180,40 @@
     <Compile Include="Admin_User_Edit.aspx.designer.cs">
       <DependentUpon>Admin_User_Edit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Ajax\Department.Operate.aspx.cs">
+      <DependentUpon>Department.Operate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Department.Operate.aspx.designer.cs">
+      <DependentUpon>Department.Operate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Events.Operate.aspx.cs">
+      <DependentUpon>Events.Operate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Events.Operate.aspx.designer.cs">
+      <DependentUpon>Events.Operate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Ajax\Files.GetList.aspx.cs">
       <DependentUpon>Files.GetList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Ajax\Files.GetList.aspx.designer.cs">
       <DependentUpon>Files.GetList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Schedules.Operate.aspx.cs">
+      <DependentUpon>Schedules.Operate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Schedules.Operate.aspx.designer.cs">
+      <DependentUpon>Schedules.Operate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Signs.Operate.aspx.cs">
+      <DependentUpon>Signs.Operate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Signs.Operate.aspx.designer.cs">
+      <DependentUpon>Signs.Operate.aspx</DependentUpon>
     </Compile>
     <Compile Include="Ajax\Users.GetList.aspx.cs">
       <DependentUpon>Users.GetList.aspx</DependentUpon>
@@ -180,13 +269,6 @@
       <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Schedules.aspx.cs">
-      <DependentUpon>Schedules.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Schedules.aspx.designer.cs">
-      <DependentUpon>Schedules.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,6 +286,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Images\" />
+    <Folder Include="Uploads\" />
     <Folder Include="WebSocket\" />
   </ItemGroup>
   <ItemGroup>

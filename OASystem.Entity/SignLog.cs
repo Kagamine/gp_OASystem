@@ -31,6 +31,9 @@ namespace OASystem.Entity
 
         [Column("time")]
         public DateTime Time { get; set; }
+
+        [NotMapped]
+        public string TimeAsString { get { return Time.ToString(); } }
     }
     public enum SignType { Login,Logout };
 }
