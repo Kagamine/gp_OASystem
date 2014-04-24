@@ -34,8 +34,8 @@ namespace OASystem.UI
                         navbar += String.Format(navbar_template, "事务管理", "Admin_Events.aspx");
                         break;
                     case Entity.UserRole.Worker:
-                        navbar += String.Format(navbar_template, "日程", "Admin_Schedules.aspx");
-                        navbar += String.Format(navbar_template, "文件", "Admin_Files.aspx");
+                        navbar += String.Format(navbar_template, "日程", "User_Schedules.aspx");
+                        navbar += String.Format(navbar_template, "文件", "User_Files.aspx");
                         navbar += String.Format(navbar_template, "事务", "Admin_Events.aspx");
                         break;
                     default:

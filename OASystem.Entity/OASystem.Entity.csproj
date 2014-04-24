@@ -43,7 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Department.cs" />
-    <Compile Include="Event.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="File.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="Schedule.cs" />
     <Compile Include="SignLog.cs" />

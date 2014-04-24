@@ -22,6 +22,6 @@ namespace OASystem.Entity
 
         public virtual ICollection<User> Users { get; set; }
 
-        public virtual ICollection<Event> Events { get; set; }
+        //public virtual ICollection<Events> Events { get; set; }
     }
 }

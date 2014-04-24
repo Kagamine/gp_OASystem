@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Admin_Users.aspx.cs" Inherits="OASystem.UI.Admin_Users" %>
+﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Admin_Users.aspx.cs" Inherits="OASystem.UI.Admin_Users" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -31,7 +31,6 @@
         <!-- /.modal -->
         <div class="container">
             <h1>员工管理</h1>
-            <p></p>
         </div>
     </div>
     <div class="container">

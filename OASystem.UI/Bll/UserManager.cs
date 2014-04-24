@@ -14,7 +14,7 @@ namespace OASystem.UI.Bll
         /// <param name="user">用户实体</param>
         /// <returns>产生的用户id，如果失败返回-1</returns>
         public static int Insert(User user)
-        {
+        { 
             using (Dal.DB db = new Dal.DB())
             {
                 if (db.Users.Any(x => x.Username == user.Username))

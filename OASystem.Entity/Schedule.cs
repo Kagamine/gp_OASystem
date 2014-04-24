@@ -22,23 +22,25 @@ namespace OASystem.Entity
 
         [Column("department_id")]
         [ForeignKey("Department")]
-        public int? DepartmentID { get; set; }
+        public int DepartmentID { get; set; }
 
         public virtual Department Department { get; set; }
 
         [Column("to_user_id")]
         [ForeignKey("ToUser")]
-        public int? ToUserID { get; set; }
-
+        public int ToUserID { get; set; }
         public virtual User ToUser { get; set; }
 
         [Column("submittion_user_id")]
         [ForeignKey("SubmittionUser")]
-        public int SubmittionUserID { get; set; }
-
+        public int? SubmittionUserID { get; set; }
         public virtual User SubmittionUser { get; set; }
 
         [Column("time")]
         public DateTime Time { get; set; }
+
+
+        [NotMapped]
+        public string TimeAsString {  get{return Time.ToString();} }
     }
 }

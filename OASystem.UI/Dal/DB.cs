@@ -16,14 +16,17 @@ namespace OASystem.UI.Dal
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<UserLog> UserLogs { get; set; }
         public DbSet<SignLog> SignLogs { get; set; }
-        public DbSet<Event> Events { get; set; }
+        public DbSet<Events> Events { get; set; }
+
+        public DbSet<File> Files { set; get; }
 
         public DB()
             : base("mysqldb")
-        { 
-            
+        {
+           
         }
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+       
+        /* protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             //构建Department实体一对多关系
             modelBuilder.Entity<Department>()
@@ -38,6 +41,7 @@ namespace OASystem.UI.Dal
             modelBuilder.Entity<User>()
                            .HasMany(u => u.UserLog)
                            .WithRequired(ul => ul.User);
-        }
+        }*/
+
     }
 }
