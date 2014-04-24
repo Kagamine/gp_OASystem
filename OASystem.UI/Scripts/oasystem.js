@@ -30,11 +30,18 @@ function LoadUsers()
     }
 }
 
+<<<<<<< HEAD
 
 ///加载日程
 function LoadSchedules() {
     var name = $("#txtName").val();
     var department_id = $("#cbbDepartment").val();
+=======
+function LoadSchedules() {
+    var name = $("#txtName").val();
+    var department_id = $("#cbbDepartment").val()
+    if ($("#lstSchedules").length > 0) {
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
         var name = $("#txtName").val();
         var department_id=$("#cbbDepartment").val()
         if (lock) return;
@@ -62,6 +69,7 @@ function LoadSchedules() {
                 });
                 },
         });
+<<<<<<< HEAD
 }
 
 //根据UserId加载日程
@@ -123,6 +131,11 @@ function LoadFilesByUserID() {
 }
 
 //加载签名
+=======
+    }
+}
+
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
 function LoadSigns() {
     var type = { 0: '签到', 1: '签退' }
     var name = $("#txtName").val();
@@ -153,6 +166,7 @@ function LoadSigns() {
     });
 }
 
+<<<<<<< HEAD
 
 ///加载事务
 function LoadEvents() {
@@ -212,10 +226,15 @@ function LoadEvents() {
 function LoadFiles() {
     var name = $("#txtName").val();
     var department_id = $("#cbbDepartment").val()
+=======
+function LoadEvents() {
+    var name = $("#txtName").val();
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
     if (lock) return;
     lock = true;
     $.ajax({
         type: "post",
+<<<<<<< HEAD
         url: "Ajax/Files.Operate.aspx/GetFiles",
         contentType: "application/json; chartset=utf-8",
         dataType: "json",
@@ -231,10 +250,23 @@ function LoadFiles() {
                    .replace("{file_name}", this.FileName)
                    .replace("{file_time}", this.TimeAsString);
                 $("#lsFiles").append(row);
+=======
+        url: "Ajax/Events.Operate.aspx/GetAllEvents",
+        contentType: "application/json; chartset=utf-8",
+        dataType: "json",
+        data: "{ 'dataName':'" + name + "','Page': " + page + "}",
+        success: function (data) {
+            $(data.d).each(function () {
+              alert(this.Id)
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
                 lock = false;
             });
         },
     });
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
 }
 
 /*删除日程*/
@@ -279,6 +311,7 @@ $(document).ready(function () {
         $(window).scroll(function () {
             totalheight = parseFloat($(window).height()) + parseFloat($(window).scrollTop());
             if ($(document).height() <= totalheight) {
+<<<<<<< HEAD
                 LoadSchedules();
             }
         });
@@ -290,6 +323,9 @@ $(document).ready(function () {
             totalheight = parseFloat($(window).height()) + parseFloat($(window).scrollTop());
             if ($(document).height() <= totalheight) {
                 LoadSchedulesByUserID();
+=======
+                LoadUsers();
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
             }
         });
     }
@@ -299,6 +335,7 @@ $(document).ready(function () {
         $(window).scroll(function () {
             totalheight = parseFloat($(window).height()) + parseFloat($(window).scrollTop());
             if ($(document).height() <= totalheight) {
+<<<<<<< HEAD
                 LoadSigns();
             }
         });
@@ -324,12 +361,22 @@ $(document).ready(function () {
         });
     }
 
+=======
+                LoadUsers();
+            }
+        });
+    }
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
     if ($("#lstEvents").length > 0) {
         LoadEvents();
         $(window).scroll(function () {
             totalheight = parseFloat($(window).height()) + parseFloat($(window).scrollTop());
             if ($(document).height() <= totalheight) {
+<<<<<<< HEAD
                 LoadEvents();
+=======
+                LoadUsers();
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
             }
         });
     }
@@ -546,6 +593,7 @@ $(document).ready(function () {
     });
 
 
+<<<<<<< HEAD
     //展示上传文件框
     $("#btnShowAddUploadFile").click(function () {
         $("#bsAddFileDialog").modal('show');
@@ -563,4 +611,10 @@ $(document).ready(function () {
     if (user_role == "0") {
                
     }
+=======
+
+    $("#btnShowAddUploadFile").click(function () {
+        $("#bsAddFileDialog").modal('show');
+    });
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
 });

@@ -36,16 +36,31 @@
     <div class="container">
          <h2>事物列表</h2>
         <input type="hidden" id="user_rank" value="<%=user_rank %>" />
+<<<<<<< HEAD
+=======
+        <p>检索：<input type="text" id="txtName" placeholder="姓名" />
+            <asp:DropDownList ID="cbbDepartment" runat="server" ClientIDMode="Static">
+                <asp:ListItem Text="全部部门" Value="0"></asp:ListItem>
+            </asp:DropDownList>
+         <input type="button" value="检索" class="btn btn-sm btn-primary" id="btnEventsSearch" /></p>
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
         <p id="pAddEvents"><a href="javascript:void(0);" id="btnShowAddEvents">发表事务</a></p>
          <table style="width: 100%">
             <thead>
                 <tr>
                     <th>编号</th>
                     <th>用户名</th>
+<<<<<<< HEAD
                     <th>事务标题</th>
                     <th>事务内容</th>
                     <th>事务状态</th>
                     <th>时间</th>
+=======
+                    <th>部门</th>
+                    <th>日程标题</th>
+                    <th>日程内容</th>
+                    <th>日期</th>
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
                     <th>操作</th>
                 </tr>
             </thead>

@@ -21,6 +21,21 @@ namespace OASystem.UI
                 user_id = User.ID.ToString();
             }
 
+<<<<<<< HEAD
+=======
+            using (Dal.DB db = new Dal.DB())
+            {
+                var departments = (from d in db.Departments
+                                   select d).ToList();
+                foreach (var d in departments)
+                {
+                    ListItem item = new ListItem();
+                    item.Text = d.Title;
+                    item.Value = d.ID.ToString();
+                    cbbDepartment.Items.Add(item);
+                }
+            }
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
         }
     }
 }

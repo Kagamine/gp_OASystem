@@ -20,9 +20,12 @@ namespace OASystem.Entity
         [Column("time")]
         public DateTime Time { set; get; }
 
+<<<<<<< HEAD
         [NotMapped]
         public string TimeAsString { get { return Time.ToString(); } }
 
+=======
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
         [Column("user_id")]
         [ForeignKey("User")]
         public int UserID { set; get; }

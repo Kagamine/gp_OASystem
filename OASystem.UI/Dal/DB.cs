@@ -20,6 +20,8 @@ namespace OASystem.UI.Dal
 
         public DbSet<File> Files { set; get; }
 
+        public DbSet<File> Files { set; get; }
+
         public DB()
             : base("mysqldb")
         {

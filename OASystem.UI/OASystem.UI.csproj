@@ -76,6 +76,7 @@
     <Content Include="User_Files.aspx" />
     <Content Include="Admin_Files.aspx" />
     <Content Include="User_Schedules.aspx" />
+    <Content Include="Admin_Files.aspx" />
     <Content Include="Admin_Schedules.aspx" />
     <Content Include="Admin_Schedule_Edit.aspx" />
     <Content Include="Admin_SignIn.aspx" />

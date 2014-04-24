@@ -37,23 +37,39 @@
             <asp:DropDownList ID="cbbDepartment" runat="server" ClientIDMode="Static">
                 <asp:ListItem Text="全部部门" Value="0"></asp:ListItem>
             </asp:DropDownList>
+<<<<<<< HEAD
          <input type="button" value="检索" class="btn btn-sm btn-primary" id="btnFilesSearch" /></p>
+=======
+         <input type="button" value="检索" class="btn btn-sm btn-primary" id="btnEventsSearch" /></p>
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
         <p id="pAddEvents"><a href="javascript:void(0);" id="btnShowAddUploadFile">上传文件</a></p>
          <table style="width: 100%">
             <thead>
                 <tr>
                     <th>编号</th>
+<<<<<<< HEAD
                     <th>上传用户</th>
                     <th>上传用户部门</th>
                     <th>文件名</th>
                     <th>上传时间</th>
+=======
+                    <th>用户名</th>
+                    <th>部门</th>
+                    <th>日程标题</th>
+                    <th>日程内容</th>
+                    <th>日期</th>
+                    <th>操作</th>
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
                 </tr>
             </thead>
             <tbody id="lsFiles">
             </tbody>
         </table>
     </div>
+<<<<<<< HEAD
     <script>
         var page = 0;
     </script>
+=======
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
 </asp:Content>

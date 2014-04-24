@@ -17,6 +17,7 @@ namespace OASystem.UI.Ajax
 
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// 增加事务
         /// </summary>
@@ -28,6 +29,13 @@ namespace OASystem.UI.Ajax
         public static string AddEvent(int root_id, string title,string content)
         {
             Events Event = new Events();
+=======
+
+        [WebMethod]
+        public static string AddEvent(int root_id, string title,string content)
+        {
+            Event Event = new Event();
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
             Event.Title = title;
             Event.Content = content;
             Event.RootID = root_id;
@@ -43,6 +51,7 @@ namespace OASystem.UI.Ajax
         }
 
 
+<<<<<<< HEAD
 
 
 
@@ -56,11 +65,18 @@ namespace OASystem.UI.Ajax
         public static List<Events> GetAllEvents(int Page)
         {
             List<Events> Events = new List<Events>();
+=======
+        [WebMethod]
+        public static List<Event> GetAllEvents(string dataName, int Page)
+        {
+            List<Event> Events = new List<Event>();
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
             List<User> Users = new List<User>();
             Dal.DB db = new DB();
 
             db.Configuration.ProxyCreationEnabled = false;
 
+<<<<<<< HEAD
             ///分页查询 按时间倒叙查询
              Events = (from e in db.Events
                            orderby e.Time descending
@@ -104,5 +120,17 @@ namespace OASystem.UI.Ajax
             return "ok";
            
         }
+=======
+            Events = (from s in db.Events select s).ToList();
+            if (dataName != "")
+            {
+                Events = (from e in db.Events
+                             where e.Root.Username.Contains(dataName)
+                             select e).ToList();
+            }
+         
+            return Events;
+        }
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
     }
 }

@@ -113,6 +113,7 @@ namespace OASystem.UI.Ajax
         #endregion
 
 
+<<<<<<< HEAD
 
 
         /// <summary>
@@ -144,6 +145,8 @@ namespace OASystem.UI.Ajax
 
             return Schedules;
         }  
+=======
+>>>>>>> 3aabe62cdccf29aead7c454a773c6bc3e00d87ab
        
     }
 }
